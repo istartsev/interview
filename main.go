@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 	"os"
+	"os/signal"
 	"syscall"
 	"time"
-	"os/signal"
 
 	"github.com/sirupsen/logrus"
 
